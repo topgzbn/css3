@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* body{ */
+      /* 给父元素加透视效果 */
+      /* perspective: 1000px;
+    } */
+    img{
+      width: 230px;
+    }
+
+    .ldhx{
+      transform:perspective(400px) rotateX(45deg);
+    }
+    .ldhy:hover{
+      transform:perspective(400px) rotateY(80deg);
+    }
+    .ldhz{
+      transform:perspective(400px) rotateZ(45deg);
+    }
+  </style>
+</head>
+
+<body>
+  <img src="./img/ldhx.png" alt="" class="ldhx">
+  <br>
+  <img src="./img/ldhy.jpg" alt="" class="ldhy">
+  <br>
+  <img src="./img/ldhz.webp" alt="" class="ldhz">
+</body>
+
+</html>
